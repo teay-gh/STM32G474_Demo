@@ -1,37 +1,37 @@
-# STM32G474_Demo
+开源案例内容基本跟随B站教学视频
+https://www.bilibili.com/video/BV1MGN1z6Er
 
-#### 介绍
-STM32G474系列学习视频的开源案例
+嵌入式交流与问题反馈交流Q群：1071912489
 
-#### 软件架构
-软件架构说明
+G4_1_LED_Demo —— GPIO输出
+G4_2_LED_TIM_Demo —— 定时器中断
+G4_3_LED_KEY_Demo —— 按键状态机
+G4_4_ADC_DAC_Demo —— ADC与DAC的软件触发
+G4_5_ADC_TIM_Demo —— 定时器外部事件触发ADC采集
+G4_6_DAC_DMA_Demo —— 定时器外部事件触发DAC的DMA输出
+G4_7_ADC_DMA_Demo —— 定时器外部事件触发ADC的DMA	采集
+G4_8_PWM_Demo —— 高级定时器PWM输出
+G4_9_CPWM_Demo —— 高级定时器互补PWM输出
+G4_10_HR_PWM_Demo —— HRTIM(高精度定时器)的PWM输出
+G4_11_HR_CPWM_Demo —— HRTIM的互补PWM输出
+G4_12_HR_SPWM_Demo —— 使用DSP库输出SPWM
+G4_13_HR_THIPWM_Demo —— 使用DSP库输出THIPWM(等效SVPWM)
+G4_14_HR_PHSF_PWM_Demo —— 移相PWM输出
+G4_15_HR_CAPWM_Demo —— HRTIM的中心对齐PWM
+G4_16_HR_COMP_EEV_Demo —— HRTIM的COMP与EEV的综合使用
+G4_17_HR_Fault_Demo —— HRTIM的Fault事件
+G4_18_HR_Burst_Demo —— HRTIM的Burst事件
+G4_19_PGA_No_Inv_Demo —— HRTIM的同相放大
+G4_20_PGA_Inv_Demo —— HRTIM的反相放大
+key 开源按键状态机文件
 
+HR工程主频150MHz
+其他工程主频170MHz
 
-#### 安装教程
+Keil MDK - V5.36
+CubeMX - V6.13.0 / V6.16.0
+CubeMX的G4包 - V1.6.1
+G4开发包(DFP) - V1.6.0
+DSP库 - V1.4.0
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+注意不要使用CubeMX的V1.6.2版本G4包，该版本存在死区时钟倍频错误的BUG
