@@ -1,5 +1,5 @@
 开源案例内容基本跟随B站教学视频
-https://www.bilibili.com/video/BV1MGN1z6Er
+https://www.bilibili.com/video/BV1MGN1z6Ere
 
 嵌入式交流与问题反馈交流Q群：1071912489
 
