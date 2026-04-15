@@ -35,3 +35,47 @@ G4开发包(DFP) - V1.6.0
 DSP库 - V1.4.0  
 
 注意不要使用CubeMX的V1.6.2版本G4包，该版本存在死区时钟倍频错误的BUG
+
+**The open-source cases basically follow the B站 (Bilibili) tutorial video:**  
+https://www.bilibili.com/video/BV1MGN1z6Ere
+
+Feedback：787209201@qq.com
+*The above content is translated by translation software, there may be inaccuracies*
+
+**G4_1_LED_Demo** —— GPIO Output  
+**G4_2_LED_TIM_Demo** —— Timer Interrupt  
+**G4_3_LED_KEY_Demo** —— Key State Machine  
+**G4_4_ADC_DAC_Demo** —— ADC & DAC Software Trigger  
+**G4_5_ADC_TIM_Demo** —— Timer External Event Triggered ADC Acquisition  
+**G4_6_DAC_DMA_Demo** —— Timer External Event Triggered DAC DMA Output  
+**G4_7_ADC_DMA_Demo** —— Timer External Event Triggered ADC DMA Acquisition  
+**G4_8_PWM_Demo** —— Advanced Timer PWM Output  
+**G4_9_CPWM_Demo** —— Advanced Timer Complementary PWM Output  
+**G4_10_HR_PWM_Demo** —— HRTIM (High-Resolution Timer) PWM Output  
+**G4_11_HR_CPWM_Demo** —— HRTIM Complementary PWM Output  
+**G4_12_HR_SPWM_Demo** —— SPWM Output Using DSP Library  
+**G4_13_HR_THIPWM_Demo** —— THIPWM Output Using DSP Library (Equivalent to SVPWM)  
+**G4_14_HR_PHSF_PWM_Demo** —— Phase-Shifted PWM Output  
+**G4_15_HR_CAPWM_Demo** —— HRTIM Center-Aligned PWM  
+**G4_16_HR_COMP_EEV_Demo** —— Comprehensive Use of HRTIM COMP & EEV  
+**G4_17_HR_Fault_Demo** —— HRTIM Fault Event  
+**G4_18_HR_Burst_Demo** —— HRTIM Burst Event  
+**G4_19_PGA_No_Inv_Demo** —— Non-Inverting Amplification (PGA)  
+**G4_20_PGA_Inv_Demo** —— Inverting Amplification (PGA)  
+
+**key** —— Open-source key state machine file
+
+**HR Project Main Frequency:** 150MHz  
+**Other Projects Main Frequency:** 170MHz
+
+**Development Environment:**
+
+| Tool | Version |
+|------|---------|
+| Keil MDK | V5.36 |
+| CubeMX | V6.13.0 / V6.16.0 |
+| CubeMX G4 Package | V1.6.1 |
+| G4 Device Family Pack (DFP) | V1.6.0 |
+| DSP Library | V1.4.0 |
+
+**⚠️ Note:** Do NOT use CubeMX G4 Package version V1.6.2 — this version has a dead-time clock frequency doubling bug.
