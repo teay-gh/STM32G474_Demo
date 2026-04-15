@@ -1,0 +1,1 @@
+g4_17_hr_fault_demo\startup_stm32g474xx.o: startup_stm32g474xx.s

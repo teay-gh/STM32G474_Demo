@@ -1,0 +1,1 @@
+g4_19_pga_no_inv_demo\startup_stm32g474xx.o: startup_stm32g474xx.s

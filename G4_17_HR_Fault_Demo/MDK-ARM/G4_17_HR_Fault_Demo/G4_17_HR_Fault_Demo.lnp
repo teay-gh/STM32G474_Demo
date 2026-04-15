@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"g4_17_hr_fault_demo\startup_stm32g474xx.o"
+"g4_17_hr_fault_demo\main.o"
+"g4_17_hr_fault_demo\gpio.o"
+"g4_17_hr_fault_demo\comp.o"
+"g4_17_hr_fault_demo\hrtim.o"
+"g4_17_hr_fault_demo\stm32g4xx_it.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_msp.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_comp.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_rcc.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_rcc_ex.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_flash.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_flash_ex.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_flash_ramfunc.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_gpio.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_exti.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_dma.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_dma_ex.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_pwr.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_pwr_ex.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_cortex.o"
+"g4_17_hr_fault_demo\stm32g4xx_hal_hrtim.o"
+"g4_17_hr_fault_demo\system_stm32g4xx.o"
+--strict --scatter "stm32g474xx_flash.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "G4_17_HR_Fault_Demo.map" -o G4_17_HR_Fault_Demo\G4_17_HR_Fault_Demo.axf

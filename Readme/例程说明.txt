@@ -1,0 +1,34 @@
+G4_1_LED_Demo —— GPIO输出
+G4_2_LED_TIM_Demo —— 定时器中断
+G4_3_LED_KEY_Demo —— 按键状态机
+G4_4_ADC_DAC_Demo —— ADC与DAC的软件触发
+G4_5_ADC_TIM_Demo —— 定时器外部事件触发ADC采集
+G4_6_DAC_DMA_Demo —— 定时器外部事件触发DAC的DMA输出
+G4_7_ADC_DMA_Demo —— 定时器外部事件触发ADC的DMA	采集
+G4_8_PWM_Demo —— 高级定时器PWM输出
+G4_9_CPWM_Demo —— 高级定时器互补PWM输出
+G4_10_HR_PWM_Demo —— HRTIM(高精度定时器)的PWM输出
+G4_11_HR_CPWM_Demo —— HRTIM的互补PWM输出
+G4_12_HR_SPWM_Demo —— 使用DSP库输出SPWM
+G4_13_HR_THIPWM_Demo —— 使用DSP库输出THIPWM(等效SVPWM)
+G4_14_HR_PHSF_PWM_Demo —— 移相PWM输出
+G4_15_HR_CAPWM_Demo —— HRTIM的中心对齐PWM
+G4_16_HR_COMP_EEV_Demo —— HRTIM的COMP与EEV的综合使用
+G4_17_HR_Fault_Demo —— HRTIM的Fault事件
+G4_18_HR_Burst_Demo —— HRTIM的Burst事件
+G4_19_PGA_No_Inv_Demo —— HRTIM的同相放大
+G4_20_PGA_Inv_Demo —— HRTIM的反相放大
+
+key 开源按键状态机文件
+
+HR工程主频150MHz
+其他工程主频170MHz
+
+CubeMX  -  V6.13.0 / V6.16.0
+CubeMX的G4包  -  V1.6.1
+G4开发包(DFP)  -  V1.6.0
+DSP库  -  V1.4.0
+
+注意不要使用CubeMX的V1.6.2版本G4包，该版本存在死区时钟倍频错误的BUG
+
+

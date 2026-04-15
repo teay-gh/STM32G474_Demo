@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"pmw_demo\startup_stm32g474xx.o"
+"pmw_demo\main.o"
+"pmw_demo\gpio.o"
+"pmw_demo\tim.o"
+"pmw_demo\stm32g4xx_it.o"
+"pmw_demo\stm32g4xx_hal_msp.o"
+"pmw_demo\stm32g4xx_hal_pwr_ex.o"
+"pmw_demo\stm32g4xx_hal_tim.o"
+"pmw_demo\stm32g4xx_hal_tim_ex.o"
+"pmw_demo\stm32g4xx_hal.o"
+"pmw_demo\stm32g4xx_hal_rcc.o"
+"pmw_demo\stm32g4xx_hal_rcc_ex.o"
+"pmw_demo\stm32g4xx_hal_flash.o"
+"pmw_demo\stm32g4xx_hal_flash_ex.o"
+"pmw_demo\stm32g4xx_hal_flash_ramfunc.o"
+"pmw_demo\stm32g4xx_hal_gpio.o"
+"pmw_demo\stm32g4xx_hal_exti.o"
+"pmw_demo\stm32g4xx_hal_dma.o"
+"pmw_demo\stm32g4xx_hal_dma_ex.o"
+"pmw_demo\stm32g4xx_hal_pwr.o"
+"pmw_demo\stm32g4xx_hal_cortex.o"
+"pmw_demo\system_stm32g4xx.o"
+--strict --scatter "PMW_Demo\PMW_Demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PMW_Demo.map" -o PMW_Demo\PMW_Demo.axf
