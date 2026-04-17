@@ -36,7 +36,7 @@ DSP库 - V1.4.0
 
 注意不要使用CubeMX的V1.6.2版本G4包，该版本存在死区时钟倍频错误的BUG
 
-**The open-source cases basically follow the B站 (Bilibili) tutorial video:**  
+**The open-source cases basically follow the Bilibili tutorial video:**  
 https://www.bilibili.com/video/BV1MGN1z6Ere
 
 Feedback：787209201@qq.com  
