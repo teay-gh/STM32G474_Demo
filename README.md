@@ -39,7 +39,7 @@ DSP库 - V1.4.0
 **The open-source cases basically follow the B站 (Bilibili) tutorial video:**  
 https://www.bilibili.com/video/BV1MGN1z6Ere
 
-Feedback：787209201@qq.com
+Feedback：787209201@qq.com  
 *The above content is translated by translation software, there may be inaccuracies*
 
 **G4_1_LED_Demo** —— GPIO Output  
